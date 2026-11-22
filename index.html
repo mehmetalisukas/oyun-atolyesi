@@ -24,23 +24,36 @@ ol.adim li{counter-increment:a;background:#fff4ea;border-radius:14px;padding:14p
 ol.adim li::before{content:counter(a);display:block;margin:0 auto 6px;width:34px;height:34px;line-height:34px;border-radius:50%;background:#cf5a22;color:#fff;font-weight:800}
 .not{background:#f1f3ff;border-radius:12px;padding:10px 14px;margin-top:12px;font-size:15px}
 ul{margin:6px 0 0 20px}
+.genis{grid-column:1/-1;font-size:26px;padding:22px}
+.ortala{text-align:center;margin:12px 0 0}
+.sistem{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.sistem>div{background:#fff4ea;border-radius:14px;padding:12px 14px}.sistem h3{margin:0 0 4px;text-align:center;color:#a63e14}.sistem ol{margin:0;padding-left:20px}
+.tel-uyari{display:none;background:#fff3bf;border:3px solid #fcc419;border-radius:16px;padding:14px;margin-bottom:18px;text-align:center;font-size:17px}
+@media(max-width:820px),(pointer:coarse) and (max-width:1100px){.tel-uyari{display:block}}
+@media(max-width:820px){.sistem{grid-template-columns:1fr}}
+.rehber{grid-column:auto}
 .alt{text-align:center;font-size:14px;color:#7a5a44}.alt a{color:#cf5a22}
 @media(max-width:640px){.indir,ol.adim{grid-template-columns:1fr}}
 </style></head><body>
 <header class="ust"><img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2064%2064%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22la%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%238b5cf6%22/%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%237048e8%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e64980%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22lap%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23fff%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ece6ff%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20x%3D%222%22%20y%3D%222%22%20width%3D%2260%22%20height%3D%2260%22%20rx%3D%2217%22%20fill%3D%22url%28%23la%29%22/%3E%3Cpath%20d%3D%22M8%2016%20Q12%207%2024%206%20L40%206%20Q30%209%2020%2020%20Z%22%20fill%3D%22%23fff%22%20opacity%3D%22.18%22/%3E%3Cpath%20d%3D%22M17%2024%20h30%20a11%2011%200%200%201%2010.6%208.1%20l2.3%208.7%20a6.4%206.4%200%200%201-11%205.8%20l-4.4-4.9%20h-25%20l-4.4%204.9%20a6.4%206.4%200%200%201-11-5.8%20l2.3-8.7%20A11%2011%200%200%201%2017%2024z%22%20fill%3D%22url%28%23lap%29%22%20stroke%3D%22%233b2596%22%20stroke-width%3D%221.6%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M16.5%2030.5%20h3%20v-3%20h3%20v3%20h3%20v3%20h-3%20v3%20h-3%20v-3%20h-3z%22%20fill%3D%22%237048e8%22/%3E%3Ccircle%20cx%3D%2245%22%20cy%3D%2228.6%22%20r%3D%222.6%22%20fill%3D%22%23fcc419%22/%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2233.4%22%20r%3D%222.6%22%20fill%3D%22%23ff6b6b%22/%3E%3Ccircle%20cx%3D%2240%22%20cy%3D%2233.4%22%20r%3D%222.6%22%20fill%3D%22%23339af0%22/%3E%3Ccircle%20cx%3D%2245%22%20cy%3D%2238.2%22%20r%3D%222.6%22%20fill%3D%22%2351cf66%22/%3E%3Cpath%20d%3D%22M50%206.5%20l1.7%203.9%204.2.4-3.2%202.8.9%204.1-3.6-2.2-3.6%202.2.9-4.1-3.2-2.8%204.2-.4z%22%20fill%3D%22%23ffd43b%22%20stroke%3D%22%23fff%22%20stroke-width%3D%22.8%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2254%22%20r%3D%221.6%22%20fill%3D%22%23fff%22%20opacity%3D%22.7%22/%3E%3Ccircle%20cx%3D%2254%22%20cy%3D%2253%22%20r%3D%221.2%22%20fill%3D%22%23fff%22%20opacity%3D%22.6%22/%3E%3C/svg%3E" alt=""><h1>Oyun Atölyesi</h1><p>Kendi sorularınızla ders oyunları — ücretsiz, internetsiz</p>
 <span class="surum">Sürüm v4 · 22.11.2026</span></header>
 <main>
-<section class="kart"><h2>İndir</h2><div class="indir">
-<a class="btn ana" href="indir/oyun-atolyesi.zip" download>Tam paketi indir<small>Önerilen · zip · 21,6 MB</small></a>
-<a class="btn ikinci" href="Oyun-Atolyesi.html" download="Oyun Atölyesi.html">Yalnız programı indir<small>Tek dosya · 2,3 MB</small></a>
-<a class="btn rehber" href="indir/Kullanim-Rehberi.pdf" target="_blank">Kullanım Rehberini aç (PDF)<small>6,9 MB</small></a>
+<div class="tel-uyari"><b>Telefondan mı açtınız?</b> Bu program bilgisayar ve akıllı tahta içindir. Bu sayfayı <b>bilgisayarınızdan</b> açıp oradan indirin.</div>
+<section class="kart"><h2>1. Programı indirin</h2><div class="indir">
+<a class="btn ana genis" href="Oyun-Atolyesi.html" download="Oyun Atölyesi.html">Programı indir<small>Tek dosya · 2,3 MB · açmak için ayrıca bir şey gerekmez</small></a>
+</div><p class="ortala">Düğmeye bir kez basın. Dosya bilgisayarınızın <b>İndirilenler</b> klasörüne iner.</p></section>
+<section class="kart"><h2>2. Programı açın</h2>
+<div class="sistem">
+<div><h3>Windows</h3><ol><li>Tarayıcının sağ üstünde çıkan indirme simgesine tıklayın ya da klavyede <b>Ctrl + J</b>'ye basın.</li><li><b>Oyun Atölyesi</b> dosyasına tıklayın.</li><li>Program tarayıcıda açılır.</li></ol></div>
+<div><h3>Mac</h3><ol><li>Ekranın altındaki <b>İndirilenler</b> klasörüne tıklayın (ya da Finder → İndirilenler).</li><li><b>Oyun Atölyesi</b> dosyasına çift tıklayın.</li><li>Program Safari'de açılır.</li></ol></div>
+<div><h3>Akıllı tahta (Pardus)</h3><ol><li>Bilgisayarda indirdiğiniz dosyayı flaş belleğe kopyalayın.</li><li>Flaşı tahtaya takın, dosyayı açın.</li><li>Sorulursa <b>Chrome</b> ya da <b>Firefox</b> seçin.</li></ol></div>
+</div>
+<p class="not"><b>Dosya açılmazsa ya da yazı karışık görünürse:</b> dosyaya <b>sağ tıklayın</b> → <b>Birlikte aç</b> → <b>Google Chrome</b> (ya da <b>Microsoft Edge</b>) seçin. İnternet gerekmez.</p>
+<p class="not"><b>Güncellemeler:</b> yeni sürüm çıkınca program açılırken haber verir; <b>Şimdi güncelle</b> demeniz yeterli. Hazırladığınız oyunlar silinmez. Tekrar indirmeniz gerekmez.</p></section>
+<section class="kart"><h2>Yardım ve tam paket</h2><div class="indir">
+<a class="btn rehber" href="indir/Kullanim-Rehberi.pdf" target="_blank">Kullanım Rehberini aç<small>Resimli anlatım · PDF · 6,9 MB</small></a>
+<a class="btn ikinci" href="indir/oyun-atolyesi.zip" download>Tam paketi indir (zip)<small>Rehber ve yardımcı araçlarla · 21,6 MB · zip açmayı bilenler için</small></a>
 </div></section>
-<section class="kart"><h2>Nasıl kurulur?</h2><ol class="adim">
-<li><b>Tam paketi indirin.</b><br>İndirilenler klasörüne gelir.</li>
-<li><b>Zip dosyasını açın.</b><br>Çift tıklayın; "Oyun Atölyesi" klasörü çıkar. Klasörü istediğiniz yere taşıyın.</li>
-<li><b>"Oyun Atölyesi.html" dosyasını açın.</b><br>Chrome ya da Edge ile açın. İnternet gerekmez.</li></ol>
-<p class="not"><b>Akıllı tahta (Pardus):</b> klasörü flaş belleğe kopyalayın, tahtada dosyaya çift tıklayın. <b>Mac:</b> dosyaya sağ tıklayıp "Birlikte Aç → Google Chrome" seçin.</p>
-<p class="not"><b>Güncellemeler:</b> program açılırken internet varsa yeni sürümü kendisi haber verir; "Şimdi güncelle" demeniz yeterli. Hazırladığınız oyunlar silinmez. Yeniden indirmeniz gerekmez.</p></section>
 <section class="kart"><h2>Bu sürümde yenilikler</h2><ul><li>Takılma sorunu giderildi; oyunlar zayıf bilgisayarlarda da akıcı.</li><li>Yeni &quot;Görüntü&quot; ayarı: Otomatik / Yüksek / Hafif.</li><li>7 oyuna daha sanal oyuncu eklendi.</li><li>Şifresiz kaydetmede tek basış yeterli.</li><li>Güncelleme özelliği: yeni sürümler programın içinden yüklenir, istenirse geri alınır.</li></ul></section>
 <p class="alt">Hazırlayan: öğretmen <b>Mehmet Ali Sukas</b> · Görüş ve önerileriniz için: <a href="mailto:mehmetalisukas@gmail.com">mehmetalisukas@gmail.com</a></p>
 </main></body></html>
