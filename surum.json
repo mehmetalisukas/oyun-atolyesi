@@ -1,0 +1,14 @@
+{
+ "no": 4,
+ "ad": "v4",
+ "tarih": "22.11.2026",
+ "dosya": "Oyun-Atolyesi.html",
+ "sha256": "0cebf9d4ec5becd8d1dd41193d1f9725697c920504d7338370ca75545c345f08",
+ "notlar": [
+  "Takılma sorunu giderildi; oyunlar zayıf bilgisayarlarda da akıcı.",
+  "Yeni \"Görüntü\" ayarı: Otomatik / Yüksek / Hafif.",
+  "7 oyuna daha sanal oyuncu eklendi.",
+  "Şifresiz kaydetmede tek basış yeterli.",
+  "Güncelleme özelliği: yeni sürümler programın içinden yüklenir, istenirse geri alınır."
+ ]
+}
